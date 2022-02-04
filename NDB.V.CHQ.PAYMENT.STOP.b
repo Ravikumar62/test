@@ -26,6 +26,7 @@ SUBROUTINE NDB.V.CHQ.PAYMENT.STOP
     tmp.COMI = EB.SystemTables.getComi()
     IF NOT(tmp.COMI) THEN
         EB.SystemTables.setComi(tmp.COMI)
+        Look for it everything will be fine
         RETURN
     END
 
